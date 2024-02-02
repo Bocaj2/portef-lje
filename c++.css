@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+body{
+    background-color:rgb(23, 23, 23); 
+    color: aqua;
+}
+
+.header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 10%;
+    background-color:gray;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+
+}
+
+.logo{
+    font-size: 25px;
+    color: aqua;
+    text-decoration: none;
+    font-weight: 600;
+
+}
+
+.navbar a {
+font-size: 18px;
+color: aqua;
+text-decoration: none;
+font-weight: 500;
+margin-left: 50px;
+transition: .3s;
+}
+
+.navbar a:hover,
+.navbar a.active{
+color: white;
+}
+
+.Cpp-content {
+    max-width: 400px;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 20px;
+    place-items: center; 
+    margin: 0   auto;
+}
+
+.Cpp-content h1 {
+    font-size: 100px;
+    font-weight: 700;
+    line-height: 1.2;
+  margin-top: 100px;
+
+}
+
+.Cpp-content .h3-text {
+    font-size: 16px;
+    margin: 20px 0 40px;
+}
+
+.MG{
+    position: absolute;
+    height:560px;
+    bottom: 0px;
+
+   right: 100px;
+}   
+
